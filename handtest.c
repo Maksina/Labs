@@ -10,7 +10,7 @@ void HandMatrix(){
 	int FinalMatColumn = 0;
 	int SourceMatLine = 0;
 	int SourceMatColumn = 0;
-	int k1,k2;
+	int IndxL,IndxC;
 	int *FinalMat,*SourceMat;
 	printf("Enter size: \n");
 	printf("Line:");
@@ -44,10 +44,10 @@ void HandMatrix(){
 		printArr(SourceMat,SourceMatLine,SourceMatColumn);	
 	}else {
 		printf("\nEnter index for start area: line=");
-		scanf("%d", &k1); // Индекс по строкам для старта области
+		scanf("%d", &IndxL); // Индекс по строкам для старта области
 		printf("\nEnter index for start area: column=");
-		scanf("%d", &k2); // Индекс по столбцам для старта области
-		f(SourceMat,FinalMat,SourceMatLine,SourceMatColumn,FinalMatLine,FinalMatColumn,k1,k2);
+		scanf("%d", &IndxC); // Индекс по столбцам для старта области
+		f(SourceMat,FinalMat,SourceMatLine,SourceMatColumn,FinalMatLine,FinalMatColumn,IndxL,IndxC);
 		printArr(FinalMat,FinalMatLine,FinalMatColumn);
 	}	
 

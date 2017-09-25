@@ -4,7 +4,7 @@
 #include <time.h>
 #include "functions.h"
 
-void *f(int *SourceMat, int *FinalMat, int SourceMatLine, int SourceMatColumn, int FinalMatLine, int FinalMatColumn, int k1, int k2);
+void *f(int *SourceMat, int *FinalMat, int SourceMatLine, int SourceMatColumn, int FinalMatLine, int FinalMatColumn, int IndxL, int IndxC);
 void printArr (int *mas, int SourceMatLine, int SourceMatColumn);
 void HandMatrix();
 void GenMatrix ();
