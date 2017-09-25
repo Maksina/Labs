@@ -1,2 +1,4 @@
-void printArr (int *mas, int n1, int n2);
-int *f(int *a, int *b, int n1, int n2, int m1, int m2);
+void printArr (int *mas, int SourceMatLine, int SourceMatColumn);
+void *f(int *SourceMat, int *FinalMat, int SourceMatLine, int SourceMatColumn, int FinalMatLine, int FinalMatColumn,int k1,int k2);
+void HandMatrix();
+void GenMatrix ();

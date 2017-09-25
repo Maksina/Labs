@@ -1,2 +1,2 @@
 all:
-		gcc main.c print.c f.c -o num1.exe
+		gcc main.c print.c f.c test.c handtest.c -o num1.exe
